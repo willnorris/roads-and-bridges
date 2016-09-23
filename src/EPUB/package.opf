@@ -8,6 +8,7 @@
   <manifest>
     <item href="nav.xhtml" id="toc" media-type="application/xhtml+xml" properties="nav"/>
     <item href="RoadsandBridgesFinalDraft.xhtml" id="main" media-type="application/xhtml+xml"/>
+    <item href="style.css" id="css" media-type="text/css" />
     <item href="images/image01.png" id="image01.png" media-type="image/png"/>
     <item href="images/image00.png" id="image00.png" media-type="image/png"/>
   </manifest>
