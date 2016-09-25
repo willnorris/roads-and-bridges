@@ -21,6 +21,7 @@
   </manifest>
   <spine>
     <itemref idref="main"/>
+    <itemref idref="toc"/>
     <itemref idref="preface"/>
     <itemref idref="history"/>
     <itemref idref="current-system"/>
