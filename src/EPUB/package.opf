@@ -2,7 +2,15 @@
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:identifier id="uid">e32029d1-cff0-49f5-b5ff-0326b93cd0b1</dc:identifier>
     <dc:language>en</dc:language>
-    <dc:title>Roads and Bridges</dc:title>
+
+    <dc:title id="t1">Roads and Bridges</dc:title>
+    <meta refines="#t1" property="title-type">main</meta>
+    <meta refines="#t1" property="display-seq">1</meta>
+
+    <dc:title id="t2">The Unseen Labor Behind Our Digital Infrastructure</dc:title>
+    <meta refines="#t2" property="title-type">subtitle</meta>
+    <meta refines="#t2" property="display-seq">2</meta>
+
     <meta property="dcterms:modified">2016-09-20T21:01:41Z</meta>
   </metadata>
   <manifest>
