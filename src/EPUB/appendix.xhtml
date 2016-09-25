@@ -1,1353 +1,1423 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <title>Roads and Bridges</title>
-    <meta charset="UTF-8"/>
-    <link rel="stylesheet" href="style.css"/>
+    <title>
+      Roads and Bridges
+    </title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Appendix</h1>
-
+    <h1>
+      Appendix
+    </h1>
     <section id="glossary">
-      <h2>Glossary</h2>
+      <h2>
+        Glossary
+      </h2>
       <dl>
-        <dt><dfn>Code repository</dfn></dt>
-        <dd>The location of source code needed to use a software project. For example, GitHub offers a place to host one’s repository so that other people can find and use it. Also colloquially called a “repo.” The collection of source code files themselves are called the “codebase.”</dd>
-
-        <dt><dfn>Contributor (open source)</dfn></dt>
-        <dd>Someone who has made a contribution to a live open source project. Examples of contributions include writing code, documentation, or managing support issues. A contributor may not have commit access to a project (i.e. someone else must approve their contributions before they are live).</dd>
-
-        <dt><dfn>Digital infrastructure</dfn></dt>
-        <dd>For the purposes of this report, digital infrastructure refers to public software components that are used to build software for personal or commercial use. Examples include programming languages and databases. This definition does not include physical infrastructure needed to build software (e.g., physical servers or cables).</dd>
-
-        <dt><dfn>Documentation (software)</dfn></dt>
-        <dd>Written information that explains how people can use or contribute back to a software project. Documentation is like an instruction manual for software. Without it, a developer wouldn’t know how to use the project.</dd>
-
-        <dt><dfn>Fork</dfn></dt>
-        <dd>There are two types of forks. A <dfn>project fork</dfn> is the historical definition of a fork, in which someone makes a copy of an open source project and continues to develop it separately. It is used politically; for example, when there is internal disagreement about the project’s direction, or to force substantial changes to the original project (ideally, merging the fork back into the main project). A <dfn>GitHub fork</dfn> refers to temporarily copying a project to make changes, usually with the intent of merging those changes back into the main project. It does not carry the political and social weight of a project fork. GitHub repurposed this term to encourage a culture of lightweight “tinkering” that is now prevalent among modern open source contributors.</dd>
-
-        <dt><dfn>FOSS, FLOSS, OSS</dfn></dt>
-        <dd>FOSS is an acronym that means Free and Open Source Software. It is meant to be inclusive of both terms that refer to public software. FLOSS refers to Free, Libre, and Open Source Software and is arguably the most inclusive definition. (The Spanish word <dfn>libre</dfn>—“free” as in freedom—is used to distinguish from <dfn>gratis</dfn>-“free” as in cost—in order to highlight that “free software” refers to the former.) OSS refers to Open Source Software only.</dd>
-
-        <dt><dfn>Free software</dfn></dt>
-        <dd>Software that is free to run for any purpose (commercial or non-commercial) as well as be studied, changed, and distributed. The term originated around 1983 from the work of computer scientist Richard Stallman, the GNU Project, and Free Software Foundation (founded 1985).</dd>
-
-        <dt><dfn>GitHub</dfn></dt>
-        <dd>A commercial platform for hosting code. GitHub launched in 2008 and is currently the most popular platform for people to host and collaborate on open source projects. (One can also host private code on GitHub.) GitHub helped standardize open source development practices and bring open source to a wider audience. Projects on GitHub use the version control system Git.</dd>
-
-        <dt><dfn>Maintainer (open source)</dfn></dt>
-        <dd>Someone who assumes the responsibility of an open source project. The definition varies from project to project. Sometimes maintainers are formally named in a project, and sometimes they emerge de facto based on who is doing the bulk of the work. A maintainer likely carries the burden of holistic project management more than any individual contributor. They may or may not have authored the original version of the project. They will likely have commit access to a project (i.e. can make changes directly to the project).</dd>
-
-        <dt><dfn>Open source software</dfn></dt>
-        <dd>Open source software has the same technical definition as free software (see above).  However, culturally, open source tends to highlight the pragmatic benefits of public software, whereas free software is a social movement. The term “open source” originated from a 1998 meeting of parties interested in exploring a corporate friendly alternative to the term “free software.”</dd>
-
-        <dt><dfn>Programming language</dfn></dt>
-        <dd>Programming languages are the communication backbone of software. They help different software components perform actions and talk to one another. Popular examples of languages include JavaScript, Python and C.</dd>
-
-        <dt><dfn>Software framework</dfn></dt>
-        <dd>Software frameworks provide basic scaffolding for an application. Think of it as a blueprint. Like a blueprint, a framework lays out how the application might look on mobile, or how information gets saved into the database. Examples include Rails and Django.</dd>
-
-        <dt><dfn>Software library</dfn></dt>
-        <dd>Software libraries are “prefabricated” pieces of code that make it faster to write software, just as a construction company might buy prefabricated windows instead of building them from scratch. For example, instead of a developer writing their own user login system for an application, they can use a library called OAuth.</dd>
-
-        <dt><dfn>Source code</dfn></dt>
-        <dd>For the purposes of this report, source code is the actual code associated with an open source project.</dd>
-
-        <dt><dfn>Venture capital</dfn></dt>
-        <dd>A type of private equity that provides money to early-stage, high-growth companies in exchange for equity. Venture capital helped grow many commercial aspects of the Internet and gave rise to Silicon Valley.</dd>
+        <dt>
+          <dfn>Code repository</dfn>
+        </dt>
+        <dd>
+          The location of source code needed to use a software project. For example, GitHub offers a place to host
+          one’s repository so that other people can find and use it. Also colloquially called a “repo.” The collection
+          of source code files themselves are called the “codebase.”
+        </dd>
+        <dt>
+          <dfn>Contributor (open source)</dfn>
+        </dt>
+        <dd>
+          Someone who has made a contribution to a live open source project. Examples of contributions include writing
+          code, documentation, or managing support issues. A contributor may not have commit access to a project (i.e.
+          someone else must approve their contributions before they are live).
+        </dd>
+        <dt>
+          <dfn>Digital infrastructure</dfn>
+        </dt>
+        <dd>
+          For the purposes of this report, digital infrastructure refers to public software components that are used to
+          build software for personal or commercial use. Examples include programming languages and databases. This
+          definition does not include physical infrastructure needed to build software (e.g., physical servers or
+          cables).
+        </dd>
+        <dt>
+          <dfn>Documentation (software)</dfn>
+        </dt>
+        <dd>
+          Written information that explains how people can use or contribute back to a software project. Documentation
+          is like an instruction manual for software. Without it, a developer wouldn’t know how to use the project.
+        </dd>
+        <dt>
+          <dfn>Fork</dfn>
+        </dt>
+        <dd>
+          There are two types of forks. A <dfn>project fork</dfn> is the historical definition of a fork, in which
+          someone makes a copy of an open source project and continues to develop it separately. It is used
+          politically; for example, when there is internal disagreement about the project’s direction, or to force
+          substantial changes to the original project (ideally, merging the fork back into the main project). A
+          <dfn>GitHub fork</dfn> refers to temporarily copying a project to make changes, usually with the intent of
+          merging those changes back into the main project. It does not carry the political and social weight of a
+          project fork. GitHub repurposed this term to encourage a culture of lightweight “tinkering” that is now
+          prevalent among modern open source contributors.
+        </dd>
+        <dt>
+          <dfn>FOSS, FLOSS, OSS</dfn>
+        </dt>
+        <dd>
+          FOSS is an acronym that means Free and Open Source Software. It is meant to be inclusive of both terms that
+          refer to public software. FLOSS refers to Free, Libre, and Open Source Software and is arguably the most
+          inclusive definition. (The Spanish word <dfn>libre</dfn>—“free” as in freedom—is used to distinguish from
+          <dfn>gratis</dfn>-“free” as in cost—in order to highlight that “free software” refers to the former.) OSS
+          refers to Open Source Software only.
+        </dd>
+        <dt>
+          <dfn>Free software</dfn>
+        </dt>
+        <dd>
+          Software that is free to run for any purpose (commercial or non-commercial) as well as be studied, changed,
+          and distributed. The term originated around 1983 from the work of computer scientist Richard Stallman, the
+          GNU Project, and Free Software Foundation (founded 1985).
+        </dd>
+        <dt>
+          <dfn>GitHub</dfn>
+        </dt>
+        <dd>
+          A commercial platform for hosting code. GitHub launched in 2008 and is currently the most popular platform
+          for people to host and collaborate on open source projects. (One can also host private code on GitHub.)
+          GitHub helped standardize open source development practices and bring open source to a wider audience.
+          Projects on GitHub use the version control system Git.
+        </dd>
+        <dt>
+          <dfn>Maintainer (open source)</dfn>
+        </dt>
+        <dd>
+          Someone who assumes the responsibility of an open source project. The definition varies from project to
+          project. Sometimes maintainers are formally named in a project, and sometimes they emerge de facto based on
+          who is doing the bulk of the work. A maintainer likely carries the burden of holistic project management more
+          than any individual contributor. They may or may not have authored the original version of the project. They
+          will likely have commit access to a project (i.e. can make changes directly to the project).
+        </dd>
+        <dt>
+          <dfn>Open source software</dfn>
+        </dt>
+        <dd>
+          Open source software has the same technical definition as free software (see above). However, culturally,
+          open source tends to highlight the pragmatic benefits of public software, whereas free software is a social
+          movement. The term “open source” originated from a 1998 meeting of parties interested in exploring a
+          corporate friendly alternative to the term “free software.”
+        </dd>
+        <dt>
+          <dfn>Programming language</dfn>
+        </dt>
+        <dd>
+          Programming languages are the communication backbone of software. They help different software components
+          perform actions and talk to one another. Popular examples of languages include JavaScript, Python and C.
+        </dd>
+        <dt>
+          <dfn>Software framework</dfn>
+        </dt>
+        <dd>
+          Software frameworks provide basic scaffolding for an application. Think of it as a blueprint. Like a
+          blueprint, a framework lays out how the application might look on mobile, or how information gets saved into
+          the database. Examples include Rails and Django.
+        </dd>
+        <dt>
+          <dfn>Software library</dfn>
+        </dt>
+        <dd>
+          Software libraries are “prefabricated” pieces of code that make it faster to write software, just as a
+          construction company might buy prefabricated windows instead of building them from scratch. For example,
+          instead of a developer writing their own user login system for an application, they can use a library called
+          OAuth.
+        </dd>
+        <dt>
+          <dfn>Source code</dfn>
+        </dt>
+        <dd>
+          For the purposes of this report, source code is the actual code associated with an open source project.
+        </dd>
+        <dt>
+          <dfn>Venture capital</dfn>
+        </dt>
+        <dd>
+          A type of private equity that provides money to early-stage, high-growth companies in exchange for equity.
+          Venture capital helped grow many commercial aspects of the Internet and gave rise to Silicon Valley.
+        </dd>
       </dl>
     </section>
-
     <section id="acknowledgements">
-      <h2>Acknowledgements</h2>
+      <h2>
+        Acknowledgements
+      </h2>
       <p class="c4">
-        Thanks to everybody who bravely agreed to be cited in this report, as well as to those whose frank and thoughtful perspectives help round out my thoughts during the research process: 
-        André Arko, 
-        Brian Behlendorf, Adam Benayoun, Juan Benet, Cory Benfield, Kris Borchers, John Edgar, Maciej Fijalkowski, Karl Fogel, Brian Ford, Sue Graves, Eric Holscher, Brandon Keepers, Russell Keith-Magee, Kyle Kemp, Jan Lehnardt, Jessica Lord, Steve Marquess, Karissa McKelvey, Heather Meeker, Philip Neustrom, Max Ogden, Arash Payan, Stormy Peters, Andrey Petrov, Peter Rabbitson, Mikeal Rogers, Hynek Schlawack, Boaz Sender, Quinn Slack, Chris Soghoian, Charlotte Spencer, Harlan Stenn, Diane Tate, Max Veytsman, Christopher Allan Webber, Chad Whitacre, Meredith Whittaker, Doug Wilson.
+        Thanks to everybody who bravely agreed to be cited in this report, as well as to those whose frank and
+        thoughtful perspectives help round out my thoughts during the research process: André Arko, Brian Behlendorf,
+        Adam Benayoun, Juan Benet, Cory Benfield, Kris Borchers, John Edgar, Maciej Fijalkowski, Karl Fogel, Brian
+        Ford, Sue Graves, Eric Holscher, Brandon Keepers, Russell Keith-Magee, Kyle Kemp, Jan Lehnardt, Jessica Lord,
+        Steve Marquess, Karissa McKelvey, Heather Meeker, Philip Neustrom, Max Ogden, Arash Payan, Stormy Peters,
+        Andrey Petrov, Peter Rabbitson, Mikeal Rogers, Hynek Schlawack, Boaz Sender, Quinn Slack, Chris Soghoian,
+        Charlotte Spencer, Harlan Stenn, Diane Tate, Max Veytsman, Christopher Allan Webber, Chad Whitacre, Meredith
+        Whittaker, Doug Wilson.
       </p>
       <p class="c4">
-        Thanks to everybody who wrote something public that was referenced in this paper. This was a critical part of the research, and I am thankful to those who make their ideas public so others can learn from them.
+        Thanks to everybody who wrote something public that was referenced in this paper. This was a critical part of
+        the research, and I am thankful to those who make their ideas public so others can learn from them.
       </p>
       <p class="c4">
         Thanks to Franz Nicolay for copy editing and Brave UX for the design of this report.
       </p>
       <p class="c4">
-        Finally, a very special thanks to Jenny Toomey and Michael Brennan for driving this project with patience and enthusiasm, to Lori McGlinchey and Freedman Consulting for their early feedback, and to Ethan Zuckerman for making the magic happen.
+        Finally, a very special thanks to Jenny Toomey and Michael Brennan for driving this project with patience and
+        enthusiasm, to Lori McGlinchey and Freedman Consulting for their early feedback, and to Ethan Zuckerman for
+        making the magic happen.
       </p>
     </section>
-
     <section id="notes">
-      <h2>Notes</h2>
+      <h2>
+        Notes
+      </h2>
       <div>
         <p class="c2">
-          <a href="preface.xhtml#ftnt_ref1" id="ftnt1">[1]</a>
-          <span class="c5">https://www.cbo.gov/publication/49910</span>
+          <a href="preface.xhtml#ftnt_ref1" id="ftnt1">[1]</a> <span class=
+          "c5">https://www.cbo.gov/publication/49910</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="preface.xhtml#ftnt_ref2" id="ftnt2">[2]</a>
-          <span class="c5">http://news.netcraft.com/archives/2014/04/08/half-a-million-widely-trusted-websites-vulnerable-to-heartbleed-bug.html</span>
+          <a href="preface.xhtml#ftnt_ref2" id="ftnt2">[2]</a> <span class=
+          "c5">http://news.netcraft.com/archives/2014/04/08/half-a-million-widely-trusted-websites-vulnerable-to-heartbleed-bug.html</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="preface.xhtml#ftnt_ref3" id="ftnt3">[3]</a>
-          <span class="c5">Email interview with Steve Marquess</span>
+          <a href="preface.xhtml#ftnt_ref3" id="ftnt3">[3]</a> <span class="c5">Email interview with Steve
+          Marquess</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="preface.xhtml#ftnt_ref4" id="ftnt4">[4]</a>
-          <span class="c5">http://www.forbes.com/sites/josephsteinberg/2014/04/10/massive-internet-security-vulnerability-you-are-at-risk-what-you-need-to-do/</span>
+          <a href="preface.xhtml#ftnt_ref4" id="ftnt4">[4]</a> <span class=
+          "c5">http://www.forbes.com/sites/josephsteinberg/2014/04/10/massive-internet-security-vulnerability-you-are-at-risk-what-you-need-to-do/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="preface.xhtml#ftnt_ref5" id="ftnt5">[5]</a>
-          <span class="c5">http://mashable.com/2014/04/09/heartbleed-bug-websites-affected/#01gtseEchaqa</span>
+          <a href="preface.xhtml#ftnt_ref5" id="ftnt5">[5]</a> <span class=
+          "c5">http://mashable.com/2014/04/09/heartbleed-bug-websites-affected/#01gtseEchaqa</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="preface.xhtml#ftnt_ref6" id="ftnt6">[6]</a>
-          <span class="c5"></span>
-          <span class="c5">http://veridicalsystems.com/blog/of-money-responsibility-and-pride/</span>
+          <a href="preface.xhtml#ftnt_ref6" id="ftnt6">[6]</a> <span class=
+          "c5">http://veridicalsystems.com/blog/of-money-responsibility-and-pride/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="preface.xhtml#ftnt_ref7" id="ftnt7">[7]</a>
-          <span class="c5">Phone interview with Steve Marquess</span>
+          <a href="preface.xhtml#ftnt_ref7" id="ftnt7">[7]</a> <span class="c5">Phone interview with Steve
+          Marquess</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="preface.xhtml#ftnt_ref8" id="ftnt8">[8]</a>
-          <span class="c5">Email interview with Steve Marquess</span>
+          <a href="preface.xhtml#ftnt_ref8" id="ftnt8">[8]</a> <span class="c5">Email interview with Steve
+          Marquess</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="preface.xhtml#ftnt_ref9" id="ftnt9">[9]</a>
-          <span class="c5">Phone interview with Steve Marquess</span>
+          <a href="preface.xhtml#ftnt_ref9" id="ftnt9">[9]</a> <span class="c5">Phone interview with Steve
+          Marquess</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="history.xhtml#ftnt_ref10" id="ftnt10">[10]</a>
-          <span class="c5"></span>
-          <span class="c5">https://instagram.com/about/legal/libraries/</span>
+          <a href="history.xhtml#ftnt_ref10" id="ftnt10">[10]</a> <span class=
+          "c5">https://instagram.com/about/legal/libraries/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="history.xhtml#ftnt_ref11" id="ftnt11">[11]</a>
-          <span class="c5"></span>
-          <span class="c5">https://opbeat.com/blog/posts/picking-tech-for-your-startup/</span>
-          <span class="c5"></span>
+          <a href="history.xhtml#ftnt_ref11" id="ftnt11">[11]</a> <span class=
+          "c5">https://opbeat.com/blog/posts/picking-tech-for-your-startup/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="history.xhtml#ftnt_ref12" id="ftnt12">[12]</a>
-          <span class="c5"></span>
-          <span class="c5">http://techcrunch.com/2010/12/08/breaking-salesforce-buys-heroku-for-212-million-in-cash/</span>
-          <span class="c5"></span>
+          <a href="history.xhtml#ftnt_ref12" id="ftnt12">[12]</a> <span class=
+          "c5">http://techcrunch.com/2010/12/08/breaking-salesforce-buys-heroku-for-212-million-in-cash/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="history.xhtml#ftnt_ref13" id="ftnt13">[13]</a>
-          <span class="c5">https://devblog.uber.com/uber-slack-a-weekend-a-story-of-open-apis/ </span>
+          <a href="history.xhtml#ftnt_ref13" id="ftnt13">[13]</a> <span class=
+          "c5">https://devblog.uber.com/uber-slack-a-weekend-a-story-of-open-apis/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="history.xhtml#ftnt_ref14" id="ftnt14">[14]</a>
-          <span class="c5">http://www.alexreisner.com/about</span>
+          <a href="history.xhtml#ftnt_ref14" id="ftnt14">[14]</a> <span class=
+          "c5">http://www.alexreisner.com/about</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="history.xhtml#ftnt_ref15" id="ftnt15">[15]</a>
-          <span class="c5">http://unicorn.bogomips.org/CONTRIBUTORS.html</span>
+          <a href="history.xhtml#ftnt_ref15" id="ftnt15">[15]</a> <span class=
+          "c5">http://unicorn.bogomips.org/CONTRIBUTORS.html</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="history.xhtml#ftnt_ref16" id="ftnt16">[16]</a>
-          <span class="c5">http://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm</span>
+          <a href="history.xhtml#ftnt_ref16" id="ftnt16">[16]</a> <span class=
+          "c5">http://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="history.xhtml#ftnt_ref17" id="ftnt17">[17]</a>
-          <span class="c5"></span>
-          <span class="c5">http://www.bothsidesofthetable.com/2011/06/28/understanding-changes-in-the-software-venture-capital-industries/</span>
-          <span class="c5"></span>
+          <a href="history.xhtml#ftnt_ref17" id="ftnt17">[17]</a> <span class=
+          "c5">http://www.bothsidesofthetable.com/2011/06/28/understanding-changes-in-the-software-venture-capital-industries/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="history.xhtml#ftnt_ref18" id="ftnt18">[18]</a>
-          <span class="c5"></span>
-          <span class="c5">http://articles.latimes.com/2014/apr/03/business/la-fi-tn-imgur-40-million-funding-20140402</span>
-          <span class="c5"></span>
+          <a href="history.xhtml#ftnt_ref18" id="ftnt18">[18]</a> <span class=
+          "c5">http://articles.latimes.com/2014/apr/03/business/la-fi-tn-imgur-40-million-funding-20140402</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="history.xhtml#ftnt_ref19" id="ftnt19">[19]</a>
-          <span class="c5">http://lifeofaudrey.com/essays/love_and_money.html</span>
+          <a href="history.xhtml#ftnt_ref19" id="ftnt19">[19]</a> <span class=
+          "c5">http://lifeofaudrey.com/essays/love_and_money.html</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="history.xhtml#ftnt_ref20" id="ftnt20">[20]</a>
-          <span class="c5">http://blog.codinghorror.com/why-ruby/</span>
+          <a href="history.xhtml#ftnt_ref20" id="ftnt20">[20]</a> <span class=
+          "c5">http://blog.codinghorror.com/why-ruby/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="history.xhtml#ftnt_ref21" id="ftnt21">[21]</a>
-          <span class="c5">https://djangogirls.org/ </span>
+          <a href="history.xhtml#ftnt_ref21" id="ftnt21">[21]</a> <span class="c5">https://djangogirls.org/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="history.xhtml#ftnt_ref22" id="ftnt22">[22]</a>
-          <span class="c5">https://www.edsurge.com/news/2014-06-25-dev-bootcamp-no-longer-bootstrapped-acquired-by-kaplan</span>
+          <a href="history.xhtml#ftnt_ref22" id="ftnt22">[22]</a> <span class=
+          "c5">https://www.edsurge.com/news/2014-06-25-dev-bootcamp-no-longer-bootstrapped-acquired-by-kaplan</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="history.xhtml#ftnt_ref23" id="ftnt23">[23]</a>
-          <span class="c5">http://arstechnica.com/business/2012/08/from-altair-to-ipad-35-years-of-personal-computer-market-share/2/</span>
+          <a href="history.xhtml#ftnt_ref23" id="ftnt23">[23]</a> <span class=
+          "c5">http://arstechnica.com/business/2012/08/from-altair-to-ipad-35-years-of-personal-computer-market-share/2/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="history.xhtml#ftnt_ref24" id="ftnt24">[24]</a>
-          <span class="c5">https://www.fsf.org/about/what-is-free-software </span>
+          <a href="history.xhtml#ftnt_ref24" id="ftnt24">[24]</a> <span class=
+          "c5">https://www.fsf.org/about/what-is-free-software</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="history.xhtml#ftnt_ref25" id="ftnt25">[25]</a>
-          <span class="c5"></span>
-          <span class="c5">https://www.gnu.org/philosophy/free-sw.html</span>
-          <span class="c5"></span>
+          <a href="history.xhtml#ftnt_ref25" id="ftnt25">[25]</a> <span class=
+          "c5">https://www.gnu.org/philosophy/free-sw.html</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="history.xhtml#ftnt_ref26" id="ftnt26">[26]</a>
-          <span class="c5"></span>
-          <span class="c5">http://opensource.org/history</span>
-          <span class="c5"></span>
+          <a href="history.xhtml#ftnt_ref26" id="ftnt26">[26]</a> <span class="c5">http://opensource.org/history</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="history.xhtml#ftnt_ref27" id="ftnt27">[27]</a>
-          <span class="c5"></span>
-          <span class="c5">http://www.gnu.org/philosophy/open-source-misses-the-point.en.html</span>
-          <span class="c5"></span>
+          <a href="history.xhtml#ftnt_ref27" id="ftnt27">[27]</a> <span class=
+          "c5">http://www.gnu.org/philosophy/open-source-misses-the-point.en.html</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="history.xhtml#ftnt_ref28" id="ftnt28">[28]</a>
-          <span class="c5">https://en.wikipedia.org/wiki/WordPress</span>
+          <a href="history.xhtml#ftnt_ref28" id="ftnt28">[28]</a> <span class=
+          "c5">https://en.wikipedia.org/wiki/WordPress</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="history.xhtml#ftnt_ref29" id="ftnt29">[29]</a>
-          <span class="c5">http://www.zdnet.com/article/as-dbms-wars-continue-postgresql-shows-most-momentum/</span>
+          <a href="history.xhtml#ftnt_ref29" id="ftnt29">[29]</a> <span class=
+          "c5">http://www.zdnet.com/article/as-dbms-wars-continue-postgresql-shows-most-momentum/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="history.xhtml#ftnt_ref30" id="ftnt30">[30]</a>
-          <span class="c5">http://w3techs.com/technologies/details/os-ubuntu/all/all</span>
+          <a href="history.xhtml#ftnt_ref30" id="ftnt30">[30]</a> <span class=
+          "c5">http://w3techs.com/technologies/details/os-ubuntu/all/all</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="history.xhtml#ftnt_ref31" id="ftnt31">[31]</a>
-          <span class="c5">https://www.netmarketshare.com/browser-market-share.aspx?qprid=0&amp;qpcustomd=0</span>
+          <a href="history.xhtml#ftnt_ref31" id="ftnt31">[31]</a> <span class=
+          "c5">https://www.netmarketshare.com/browser-market-share.aspx?qprid=0&amp;qpcustomd=0</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="history.xhtml#ftnt_ref32" id="ftnt32">[32]</a>
-          <span class="c5">http://ma.tt/2003/01/the-blogging-software-dilemma/</span>
+          <a href="history.xhtml#ftnt_ref32" id="ftnt32">[32]</a> <span class=
+          "c5">http://ma.tt/2003/01/the-blogging-software-dilemma/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="history.xhtml#ftnt_ref33" id="ftnt33">[33]</a>
-          <span class="c5">Thanks to Karl Fogel for reminding me of this benefit.</span>
+          <a href="history.xhtml#ftnt_ref33" id="ftnt33">[33]</a> <span class="c5">Thanks to Karl Fogel for reminding
+          me of this benefit.</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref34" id="ftnt34">[34]</a>
-          <span class="c5">https://www.cbo.gov/publication/49910</span>
+          <a href="current-system.xhtml#ftnt_ref34" id="ftnt34">[34]</a> <span class=
+          "c5">https://www.cbo.gov/publication/49910</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref35" id="ftnt35">[35]</a>
-          <span class="c5">http://thehill.com/policy/transportation/255264-mccarthy-were-going-to-make-sure-we-get-the-highway-bill-done</span>
+          <a href="current-system.xhtml#ftnt_ref35" id="ftnt35">[35]</a> <span class=
+          "c5">http://thehill.com/policy/transportation/255264-mccarthy-were-going-to-make-sure-we-get-the-highway-bill-done</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref36" id="ftnt36">[36]</a>
-          <span class="c5">http://www.wsj.com/articles/house-passes-five-year-transportation-bill-1449167609</span>
+          <a href="current-system.xhtml#ftnt_ref36" id="ftnt36">[36]</a> <span class=
+          "c5">http://www.wsj.com/articles/house-passes-five-year-transportation-bill-1449167609</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref37" id="ftnt37">[37]</a>
-          <span class="c5">https://en.wikipedia.org/wiki/Big_Dig</span>
+          <a href="current-system.xhtml#ftnt_ref37" id="ftnt37">[37]</a> <span class=
+          "c5">https://en.wikipedia.org/wiki/Big_Dig</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref38" id="ftnt38">[38]</a>
-          <span class="c5">http://www.zdnet.com/article/as-dbms-wars-continue-postgresql-shows-most-momentum/</span>
+          <a href="current-system.xhtml#ftnt_ref38" id="ftnt38">[38]</a> <span class=
+          "c5">http://www.zdnet.com/article/as-dbms-wars-continue-postgresql-shows-most-momentum/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref39" id="ftnt39">[39]</a>
-          <span class="c5">https://en.wikipedia.org/wiki/MySQL</span>
+          <a href="current-system.xhtml#ftnt_ref39" id="ftnt39">[39]</a> <span class=
+          "c5">https://en.wikipedia.org/wiki/MySQL</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref40" id="ftnt40">[40]</a>
-          <span class="c5">https://en.wikipedia.org/wiki/Ruby_(programming_language)</span>
+          <a href="current-system.xhtml#ftnt_ref40" id="ftnt40">[40]</a> <span class=
+          "c5">https://en.wikipedia.org/wiki/Ruby_(programming_language)</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref41" id="ftnt41">[41]</a>
-          <span class="c5">https://en.wikipedia.org/wiki/London_Underground</span>
+          <a href="current-system.xhtml#ftnt_ref41" id="ftnt41">[41]</a> <span class=
+          "c5">https://en.wikipedia.org/wiki/London_Underground</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref42" id="ftnt42">[42]</a>
-          <span class="c5">Monthly code commits by language. Commits including multiple languages are counted once for each language. Black Duck’s Open Hub pulls from over 650,000 open source projects. Data accessed May 20, 2016. https://www.openhub.net/languages/compare</span>
+          <a href="current-system.xhtml#ftnt_ref42" id="ftnt42">[42]</a> <span class="c5">Monthly code commits by
+          language. Commits including multiple languages are counted once for each language. Black Duck’s Open Hub
+          pulls from over 650,000 open source projects. Data accessed May 20, 2016.
+          https://www.openhub.net/languages/compare</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref43" id="ftnt43">[43]</a>
-          <span class="c5">https://story.californiasunday.com/tim-hwang-infrastructure-tourist</span>
+          <a href="current-system.xhtml#ftnt_ref43" id="ftnt43">[43]</a> <span class=
+          "c5">https://story.californiasunday.com/tim-hwang-infrastructure-tourist</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref44" id="ftnt44">[44]</a>
-          <span class="c5">http://blog.codinghorror.com/the-magpie-developer/</span>
+          <a href="current-system.xhtml#ftnt_ref44" id="ftnt44">[44]</a> <span class=
+          "c5">http://blog.codinghorror.com/the-magpie-developer/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref45" id="ftnt45">[45]</a>
-          <span class="c5">https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force</span>
+          <a href="current-system.xhtml#ftnt_ref45" id="ftnt45">[45]</a> <span class=
+          "c5">https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref46" id="ftnt46">[46]</a>
-          <span class="c5">https://en.wikipedia.org/wiki/Go_(programming_language)</span>
+          <a href="current-system.xhtml#ftnt_ref46" id="ftnt46">[46]</a> <span class=
+          "c5">https://en.wikipedia.org/wiki/Go_(programming_language)</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref47" id="ftnt47">[47]</a>
-          <span class="c5">https://www.quora.com/How-was-the-idea-to-develop-React-conceived-and-how-many-people-worked-on-developing-it-and-implementing-it-at-Facebook/answer/Bill-Fisher-17</span>
+          <a href="current-system.xhtml#ftnt_ref47" id="ftnt47">[47]</a> <span class=
+          "c5">https://www.quora.com/How-was-the-idea-to-develop-React-conceived-and-how-many-people-worked-on-developing-it-and-implementing-it-at-Facebook/answer/Bill-Fisher-17</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref48" id="ftnt48">[48]</a>
-          <span class="c5">https://en.wikipedia.org/wiki/React_(JavaScript_library)</span>
+          <a href="current-system.xhtml#ftnt_ref48" id="ftnt48">[48]</a> <span class=
+          "c5">https://en.wikipedia.org/wiki/React_(JavaScript_library)</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref49" id="ftnt49">[49]</a>
-          <span class="c5">https://en.wikipedia.org/wiki/Swift_(programming_language)</span>
+          <a href="current-system.xhtml#ftnt_ref49" id="ftnt49">[49]</a> <span class=
+          "c5">https://en.wikipedia.org/wiki/Swift_(programming_language)</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref50" id="ftnt50">[50]</a>
-          <span class="c5">https://github.com/facebook/react/blob/master/PATENTS</span>
+          <a href="current-system.xhtml#ftnt_ref50" id="ftnt50">[50]</a> <span class=
+          "c5">https://github.com/facebook/react/blob/master/PATENTS</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref51" id="ftnt51">[51]</a>
-          <span class="c5">http://venturebeat.com/2015/06/13/docker-now-valued-at-1b-paid-someone-799-for-its-logo-on-99designs/</span>
+          <a href="current-system.xhtml#ftnt_ref51" id="ftnt51">[51]</a> <span class=
+          "c5">http://venturebeat.com/2015/06/13/docker-now-valued-at-1b-paid-someone-799-for-its-logo-on-99designs/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref52" id="ftnt52">[52]</a>
-          <span class="c5">http://www.bloomberg.com/news/articles/2015-04-14/docker-said-to-join-1-billion-valuation-club-with-new-funding</span>
+          <a href="current-system.xhtml#ftnt_ref52" id="ftnt52">[52]</a> <span class=
+          "c5">http://www.bloomberg.com/news/articles/2015-04-14/docker-said-to-join-1-billion-valuation-club-with-new-funding</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref53" id="ftnt53">[53]</a>
-          <span class="c5">https://www.crunchbase.com/organization/meteor</span>
+          <a href="current-system.xhtml#ftnt_ref53" id="ftnt53">[53]</a> <span class=
+          "c5">https://www.crunchbase.com/organization/meteor</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref54" id="ftnt54">[54]</a>
-          <span class="c5">http://info.meteor.com/blog/announcing-meteor-galaxy</span>
+          <a href="current-system.xhtml#ftnt_ref54" id="ftnt54">[54]</a> <span class=
+          "c5">http://info.meteor.com/blog/announcing-meteor-galaxy</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref55" id="ftnt55">[55]</a>
-          <span class="c5">http://venturebeat.com/2015/12/06/its-actually-open-source-software-thats-eating-the-world/</span>
+          <a href="current-system.xhtml#ftnt_ref55" id="ftnt55">[55]</a> <span class=
+          "c5">http://venturebeat.com/2015/12/06/its-actually-open-source-software-thats-eating-the-world/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref56" id="ftnt56">[56]</a>
-          <span class="c5">http://words.steveklabnik.com/is-npm-worth-26mm</span>
+          <a href="current-system.xhtml#ftnt_ref56" id="ftnt56">[56]</a> <span class=
+          "c5">http://words.steveklabnik.com/is-npm-worth-26mm</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref57" id="ftnt57">[57]</a>
-          <span class="c5">https://www.crunchbase.com/organization/github</span>
+          <a href="current-system.xhtml#ftnt_ref57" id="ftnt57">[57]</a> <span class=
+          "c5">https://www.crunchbase.com/organization/github</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref58" id="ftnt58">[58]</a>
-          <span class="c5">http://www.wsj.com/articles/SB10001424052702303292204577517111643094308</span>
+          <a href="current-system.xhtml#ftnt_ref58" id="ftnt58">[58]</a> <span class=
+          "c5">http://www.wsj.com/articles/SB10001424052702303292204577517111643094308</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref59" id="ftnt59">[59]</a>
-          <span class="c5">https://www.python.org/doc/essays/foreword/</span>
+          <a href="current-system.xhtml#ftnt_ref59" id="ftnt59">[59]</a> <span class=
+          "c5">https://www.python.org/doc/essays/foreword/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref60" id="ftnt60">[60]</a>
-          <span class="c5">http://blog.codeeval.com/codeevalblog/2015#.VjvKZhNViko=</span>
+          <a href="current-system.xhtml#ftnt_ref60" id="ftnt60">[60]</a> <span class=
+          "c5">http://blog.codeeval.com/codeevalblog/2015#.VjvKZhNViko=</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref61" id="ftnt61">[61]</a>
-          <span class="c5">https://en.wikipedia.org/wiki/Guido_van_Rossum</span>
+          <a href="current-system.xhtml#ftnt_ref61" id="ftnt61">[61]</a> <span class=
+          "c5">https://en.wikipedia.org/wiki/Guido_van_Rossum</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref62" id="ftnt62">[62]</a>
-          <span class="c5">http://skillcrush.com/2015/02/02/37-rails-sites/</span>
+          <a href="current-system.xhtml#ftnt_ref62" id="ftnt62">[62]</a> <span class=
+          "c5">http://skillcrush.com/2015/02/02/37-rails-sites/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref63" id="ftnt63">[63]</a>
-          <span class="c5">https://twistedmatrix.com/trac/wiki/SuccessStories</span>
+          <a href="current-system.xhtml#ftnt_ref63" id="ftnt63">[63]</a> <span class=
+          "c5">https://twistedmatrix.com/trac/wiki/SuccessStories</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref64" id="ftnt64">[64]</a>
-          <span class="c5">https://twistedmatrix.com/glyph/</span>
+          <a href="current-system.xhtml#ftnt_ref64" id="ftnt64">[64]</a> <span class=
+          "c5">https://twistedmatrix.com/glyph/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref65" id="ftnt65">[65]</a>
-          <span class="c5">https://peerj.com/preprints/1233.pdf</span>
+          <a href="current-system.xhtml#ftnt_ref65" id="ftnt65">[65]</a> <span class=
+          "c5">https://peerj.com/preprints/1233.pdf</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref66" id="ftnt66">[66]</a>
-          <span class="c5">Email interview with Arash Payan</span>
+          <a href="current-system.xhtml#ftnt_ref66" id="ftnt66">[66]</a> <span class="c5">Email interview with Arash
+          Payan</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref67" id="ftnt67">[67]</a>
-          <span class="c5">https://medium.com/@shazow/urllib3-stripe-and-open-source-grants-edb9c0e46e82</span>
+          <a href="current-system.xhtml#ftnt_ref67" id="ftnt67">[67]</a> <span class=
+          "c5">https://medium.com/@shazow/urllib3-stripe-and-open-source-grants-edb9c0e46e82</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref68" id="ftnt68">[68]</a>
-          <span class="c5">https://readthedocs.org/sustainability/</span>
+          <a href="current-system.xhtml#ftnt_ref68" id="ftnt68">[68]</a> <span class=
+          "c5">https://readthedocs.org/sustainability/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref69" id="ftnt69">[69]</a>
-          <span class="c5"></span>
-          <span class="c5">https://blog.mozilla.org/blog/2015/12/10/mozilla-open-source-support-first-awards-made/</span>
-          <span class="c5"></span>
+          <a href="current-system.xhtml#ftnt_ref69" id="ftnt69">[69]</a> <span class=
+          "c5">https://blog.mozilla.org/blog/2015/12/10/mozilla-open-source-support-first-awards-made/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref70" id="ftnt70">[70]</a>
-          <span class="c5">http://blog.readthedocs.com/ads-on-read-the-docs/</span>
+          <a href="current-system.xhtml#ftnt_ref70" id="ftnt70">[70]</a> <span class=
+          "c5">http://blog.readthedocs.com/ads-on-read-the-docs/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="current-system.xhtml#ftnt_ref71" id="ftnt71">[71]</a>
-          <span class="c5">Skype interview with Eric Holscher</span>
+          <a href="current-system.xhtml#ftnt_ref71" id="ftnt71">[71]</a> <span class="c5">Skype interview with Eric
+          Holscher</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref72" id="ftnt72">[72]</a>
-          <span class="c5"></span>
-          <span class="c5">http://david.heinemeierhansson.com/2013/the-perils-of-mixing-open-source-and-money.html</span>
-          <span class="c5"></span>
+          <a href="challenges.xhtml#ftnt_ref72" id="ftnt72">[72]</a> <span class=
+          "c5">http://david.heinemeierhansson.com/2013/the-perils-of-mixing-open-source-and-money.html</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref73" id="ftnt73">[73]</a>
-          <span class="c5"></span>
-          <span class="c5">http://blog.codinghorror.com/is-money-useless-to-open-source-projects/</span>
-          <span class="c5"></span>
+          <a href="challenges.xhtml#ftnt_ref73" id="ftnt73">[73]</a> <span class=
+          "c5">http://blog.codinghorror.com/is-money-useless-to-open-source-projects/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref74" id="ftnt74">[74]</a>
-          <span class="c5"></span>
-          <span class="c5">http://www.datamation.com/open-source/linus-torvalds-and-others-on-community-burnout-1.html</span>
-          <span class="c5"></span>
+          <a href="challenges.xhtml#ftnt_ref74" id="ftnt74">[74]</a> <span class=
+          "c5">http://www.datamation.com/open-source/linus-torvalds-and-others-on-community-burnout-1.html</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref75" id="ftnt75">[75]</a>
-          <span class="c5">http://www.apple.com/customer-letter/</span>
+          <a href="challenges.xhtml#ftnt_ref75" id="ftnt75">[75]</a> <span class=
+          "c5">http://www.apple.com/customer-letter/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref76" id="ftnt76">[76]</a>
-          <span class="c5">https://www.blackducksoftware.com/future-of-open-source</span>
+          <a href="challenges.xhtml#ftnt_ref76" id="ftnt76">[76]</a> <span class=
+          "c5">https://www.blackducksoftware.com/future-of-open-source</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref77" id="ftnt77">[77]</a>
-          <span class="c5">http://redmonk.com/sogrady/2013/12/19/dvcs-and-git-2013/#ixzz2qyfVpSR9</span>
+          <a href="challenges.xhtml#ftnt_ref77" id="ftnt77">[77]</a> <span class=
+          "c5">http://redmonk.com/sogrady/2013/12/19/dvcs-and-git-2013/#ixzz2qyfVpSR9</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref78" id="ftnt78">[78]</a>
-          <span class="c5">As of January 6, 2016. https://www.openhub.net/repositories/compare</span>
+          <a href="challenges.xhtml#ftnt_ref78" id="ftnt78">[78]</a> <span class="c5">As of January 6, 2016.
+          https://www.openhub.net/repositories/compare</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref79" id="ftnt79">[79]</a>
-          <span class="c5">http://readwrite.com/2014/01/21/git-subversion-developers</span>
+          <a href="challenges.xhtml#ftnt_ref79" id="ftnt79">[79]</a> <span class=
+          "c5">http://readwrite.com/2014/01/21/git-subversion-developers</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref80" id="ftnt80">[80]</a>
-          <span class="c5">https://github.com/blog/841-those-are-some-big-numbers</span>
+          <a href="challenges.xhtml#ftnt_ref80" id="ftnt80">[80]</a> <span class=
+          "c5">https://github.com/blog/841-those-are-some-big-numbers</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref81" id="ftnt81">[81]</a>
-          <span class="c5">https://en.wikipedia.org/wiki/GitHub</span>
+          <a href="challenges.xhtml#ftnt_ref81" id="ftnt81">[81]</a> <span class=
+          "c5">https://en.wikipedia.org/wiki/GitHub</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref82" id="ftnt82">[82]</a>
-          <span class="c5">https://github.com/blog/1724-10-million-repositories</span>
+          <a href="challenges.xhtml#ftnt_ref82" id="ftnt82">[82]</a> <span class=
+          "c5">https://github.com/blog/1724-10-million-repositories</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref83" id="ftnt83">[83]</a>
-          <span class="c5">http://dirkriehle.com/publications/2008-2/the-total-growth-of-open-source/</span>
+          <a href="challenges.xhtml#ftnt_ref83" id="ftnt83">[83]</a> <span class=
+          "c5">http://dirkriehle.com/publications/2008-2/the-total-growth-of-open-source/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref84" id="ftnt84">[84]</a>
-          <span class="c5">https://en.wikipedia.org/wiki/Stack_Overflow</span>
+          <a href="challenges.xhtml#ftnt_ref84" id="ftnt84">[84]</a> <span class=
+          "c5">https://en.wikipedia.org/wiki/Stack_Overflow</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref85" id="ftnt85">[85]</a>
-          <span class="c5">https://creativecommons.org/licenses/by-sa/2.0/</span>
+          <a href="challenges.xhtml#ftnt_ref85" id="ftnt85">[85]</a> <span class=
+          "c5">https://creativecommons.org/licenses/by-sa/2.0/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref86" id="ftnt86">[86]</a>
-          <span class="c5">http://meta.stackexchange.com/questions/271080/the-mit-license-clarity-on-using-code-on-stack-overflow-and-stack-exchange</span>
+          <a href="challenges.xhtml#ftnt_ref86" id="ftnt86">[86]</a> <span class=
+          "c5">http://meta.stackexchange.com/questions/271080/the-mit-license-clarity-on-using-code-on-stack-overflow-and-stack-exchange</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref87" id="ftnt87">[87]</a>
-          <span class="c5">http://meta.stackexchange.com/questions/272956/a-new-code-license-the-mit-this-time-with-attribution-required</span>
+          <a href="challenges.xhtml#ftnt_ref87" id="ftnt87">[87]</a> <span class=
+          "c5">http://meta.stackexchange.com/questions/272956/a-new-code-license-the-mit-this-time-with-attribution-required</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref88" id="ftnt88">[88]</a>
-          <span class="c5">http://www.infoworld.com/article/2615869/open-source-software/github-needs-to-take-open-source-seriously.html</span>
+          <a href="challenges.xhtml#ftnt_ref88" id="ftnt88">[88]</a> <span class=
+          "c5">http://www.infoworld.com/article/2615869/open-source-software/github-needs-to-take-open-source-seriously.html</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref89" id="ftnt89">[89]</a>
-          <span class="c5">http://www.infoworld.com/article/2611422/open-source-software/github-finally-takes-open-source-licenses-seriously.html</span>
+          <a href="challenges.xhtml#ftnt_ref89" id="ftnt89">[89]</a> <span class=
+          "c5">http://www.infoworld.com/article/2611422/open-source-software/github-finally-takes-open-source-licenses-seriously.html</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref90" id="ftnt90">[90]</a>
-          <span class="c5">http://www.theregister.co.uk/2013/04/18/github_licensing_study/</span>
+          <a href="challenges.xhtml#ftnt_ref90" id="ftnt90">[90]</a> <span class=
+          "c5">http://www.theregister.co.uk/2013/04/18/github_licensing_study/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref91" id="ftnt91">[91]</a>
-          <span class="c5">https://twitter.com/monkchips/status/247584170967175169</span>
+          <a href="challenges.xhtml#ftnt_ref91" id="ftnt91">[91]</a> <span class=
+          "c5">https://twitter.com/monkchips/status/247584170967175169</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref92" id="ftnt92">[92]</a>
-          <span class="c5">http://blog.codinghorror.com/please-dont-learn-to-code/</span>
+          <a href="challenges.xhtml#ftnt_ref92" id="ftnt92">[92]</a> <span class=
+          "c5">http://blog.codinghorror.com/please-dont-learn-to-code/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref93" id="ftnt93">[93]</a>
-          <span class="c5">https://medium.com/@wob/the-sad-state-of-web-development-1603a861d29f#.443lcznv1</span>
+          <a href="challenges.xhtml#ftnt_ref93" id="ftnt93">[93]</a> <span class=
+          "c5">https://medium.com/@wob/the-sad-state-of-web-development-1603a861d29f#.443lcznv1</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref94" id="ftnt94">[94]</a>
-          <span class="c5">https://coderanger.net/funding-foss/</span>
+          <a href="challenges.xhtml#ftnt_ref94" id="ftnt94">[94]</a> <span class=
+          "c5">https://coderanger.net/funding-foss/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref95" id="ftnt95">[95]</a>
-          <span class="c5">Email interview with Hynek Schlawack</span>
+          <a href="challenges.xhtml#ftnt_ref95" id="ftnt95">[95]</a> <span class="c5">Email interview with Hynek
+          Schlawack</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref96" id="ftnt96">[96]</a>
-          <span class="c5">http://timesofindia.indiatimes.com/tech/tech-news/Security-experts-expect-Shellshock-software-bug-to-be-significant/articleshow/43657819.cms</span>
+          <a href="challenges.xhtml#ftnt_ref96" id="ftnt96">[96]</a> <span class=
+          "c5">http://timesofindia.indiatimes.com/tech/tech-news/Security-experts-expect-Shellshock-software-bug-to-be-significant/articleshow/43657819.cms</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref97" id="ftnt97">[97]</a>
-          <span class="c5">http://www.scmagazineuk.com/openssh-flaw-opens-the-door-to-brute-force-attackers/article/428304/</span>
+          <a href="challenges.xhtml#ftnt_ref97" id="ftnt97">[97]</a> <span class=
+          "c5">http://www.scmagazineuk.com/openssh-flaw-opens-the-door-to-brute-force-attackers/article/428304/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref98" id="ftnt98">[98]</a>
-          <span class="c5">http://arstechnica.com/security/2016/01/bug-that-can-leak-crypto-keys-just-fixed-in-widely-used-openssh/</span>
+          <a href="challenges.xhtml#ftnt_ref98" id="ftnt98">[98]</a> <span class=
+          "c5">http://arstechnica.com/security/2016/01/bug-that-can-leak-crypto-keys-just-fixed-in-widely-used-openssh/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref99" id="ftnt99">[99]</a>
-          <span class="c5">https://medium.com/@christophera/i-ve-been-working-to-address-this-gap-for-a-while-thus-my-recent-exploration-of-the-commons-in-my-8094d41a874a#.qyh31ida4 Quote edited for clarity by source.</span>
+          <a href="challenges.xhtml#ftnt_ref99" id="ftnt99">[99]</a> <span class=
+          "c5">https://medium.com/@christophera/i-ve-been-working-to-address-this-gap-for-a-while-thus-my-recent-exploration-of-the-commons-in-my-8094d41a874a#.qyh31ida4
+          Quote edited for clarity by source.</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref100" id="ftnt100">[100]</a>
-          <span class="c5">https://medium.com/@azerbike/i-ve-just-liberated-my-modules-9045c06be67c#.4sdbklvqv</span>
+          <a href="challenges.xhtml#ftnt_ref100" id="ftnt100">[100]</a> <span class=
+          "c5">https://medium.com/@azerbike/i-ve-just-liberated-my-modules-9045c06be67c#.4sdbklvqv</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref101" id="ftnt101">[101]</a>
-          <span class="c5">http://www.theregister.co.uk/2016/03/23/npm_left_pad_chaos/</span>
+          <a href="challenges.xhtml#ftnt_ref101" id="ftnt101">[101]</a> <span class=
+          "c5">http://www.theregister.co.uk/2016/03/23/npm_left_pad_chaos/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref102" id="ftnt102">[102]</a>
-          <span class="c5">http://blog.npmjs.org/post/141577284765/kik-left-pad-and-npm</span>
+          <a href="challenges.xhtml#ftnt_ref102" id="ftnt102">[102]</a> <span class=
+          "c5">http://blog.npmjs.org/post/141577284765/kik-left-pad-and-npm</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref103" id="ftnt103">[103]</a>
-          <span class="c5">Email interview with Russell Keith-Magee and Hynek Schlawack</span>
+          <a href="challenges.xhtml#ftnt_ref103" id="ftnt103">[103]</a> <span class="c5">Email interview with Russell
+          Keith-Magee and Hynek Schlawack</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref104" id="ftnt104">[104]</a>
-          <span class="c5">Phone and email interview with André Arko. Thanks to André for his edits.</span>
+          <a href="challenges.xhtml#ftnt_ref104" id="ftnt104">[104]</a> <span class="c5">Phone and email interview with
+          André Arko. Thanks to André for his edits.</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref105" id="ftnt105">[105]</a>
-          <span class="c5">https://github.com/pybee/paying-the-piper/issues/26</span>
+          <a href="challenges.xhtml#ftnt_ref105" id="ftnt105">[105]</a> <span class=
+          "c5">https://github.com/pybee/paying-the-piper/issues/26</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref106" id="ftnt106">[106]</a>
-          <span class="c5">http://fortune.com/2016/03/22/red-hat-revenue-2-billion-open-source/</span>
+          <a href="challenges.xhtml#ftnt_ref106" id="ftnt106">[106]</a> <span class=
+          "c5">http://fortune.com/2016/03/22/red-hat-revenue-2-billion-open-source/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref107" id="ftnt107">[107]</a>
-          <span class="c5">http://docs.readthedocs.io/en/latest/open-source-philosophy.html</span>
+          <a href="challenges.xhtml#ftnt_ref107" id="ftnt107">[107]</a> <span class=
+          "c5">http://docs.readthedocs.io/en/latest/open-source-philosophy.html</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref108" id="ftnt108">[108]</a>
-          <span class="c5">https://twitter.com/ericholscher/status/689569190043201536</span>
+          <a href="challenges.xhtml#ftnt_ref108" id="ftnt108">[108]</a> <span class=
+          "c5">https://twitter.com/ericholscher/status/689569190043201536</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref109" id="ftnt109">[109]</a>
-          <span class="c5">http://veridicalsystems.com/blog/of-money-responsibility-and-pride/ </span>
+          <a href="challenges.xhtml#ftnt_ref109" id="ftnt109">[109]</a> <span class=
+          "c5">http://veridicalsystems.com/blog/of-money-responsibility-and-pride/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref110" id="ftnt110">[110]</a>
-          <span class="c5">https://news.ycombinator.com/item?id=8712370</span>
+          <a href="challenges.xhtml#ftnt_ref110" id="ftnt110">[110]</a> <span class=
+          "c5">https://news.ycombinator.com/item?id=8712370</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref111" id="ftnt111">[111]</a>
-          <span class="c5">http://ryanbigg.com/2015/11/open-source-work/</span>
+          <a href="challenges.xhtml#ftnt_ref111" id="ftnt111">[111]</a> <span class=
+          "c5">http://ryanbigg.com/2015/11/open-source-work/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref112" id="ftnt112">[112]</a>
-          <span class="c5">The 5.4% figure refers to open source contributors with more than ten contributions. http://www.toptal.com/open-source/is-open-source-open-to-women </span>
+          <a href="challenges.xhtml#ftnt_ref112" id="ftnt112">[112]</a> <span class="c5">The 5.4% figure refers to open
+          source contributors with more than ten contributions.
+          http://www.toptal.com/open-source/is-open-source-open-to-women</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref113" id="ftnt113">[113]</a>
-          <span class="c5">http://www.drmaciver.com/2015/04/its-ok-for-your-open-source-library-to-be-a-bit-shitty/</span>
+          <a href="challenges.xhtml#ftnt_ref113" id="ftnt113">[113]</a> <span class=
+          "c5">http://www.drmaciver.com/2015/04/its-ok-for-your-open-source-library-to-be-a-bit-shitty/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref114" id="ftnt114">[114]</a>
-          <span class="c5">Email interview with Cory Benfield</span>
+          <a href="challenges.xhtml#ftnt_ref114" id="ftnt114">[114]</a> <span class="c5">Email interview with Cory
+          Benfield</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref115" id="ftnt115">[115]</a>
-          <span class="c5">Email interview with Charlotte Spencer</span>
+          <a href="challenges.xhtml#ftnt_ref115" id="ftnt115">[115]</a> <span class="c5">Email interview with Charlotte
+          Spencer</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref116" id="ftnt116">[116]</a>
-          <span class="c5">http://jlord.us/blog/osos-talk.html</span>
+          <a href="challenges.xhtml#ftnt_ref116" id="ftnt116">[116]</a> <span class=
+          "c5">http://jlord.us/blog/osos-talk.html</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref117" id="ftnt117">[117]</a>
-          <span class="c5">http://jlord.us/blog/osos-talk.html</span>
+          <a href="challenges.xhtml#ftnt_ref117" id="ftnt117">[117]</a> <span class=
+          "c5">http://jlord.us/blog/osos-talk.html</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="challenges.xhtml#ftnt_ref118" id="ftnt118">[118]</a>
-          <span class="c5">https://www.ashedryden.com/blog/the-ethics-of-unpaid-labor-and-the-oss-community</span>
+          <a href="challenges.xhtml#ftnt_ref118" id="ftnt118">[118]</a> <span class=
+          "c5">https://www.ashedryden.com/blog/the-ethics-of-unpaid-labor-and-the-oss-community</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref119" id="ftnt119">[119]</a>
-          <span class="c5">Thanks to Sam Gerstenzang for framing this distinction: https://twitter.com/gerstenzang/status/687404438005366784</span>
+          <a href="sustaining.xhtml#ftnt_ref119" id="ftnt119">[119]</a> <span class="c5">Thanks to Sam Gerstenzang for
+          framing this distinction: https://twitter.com/gerstenzang/status/687404438005366784</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref120" id="ftnt120">[120]</a>
-          <span class="c5">https://www.bountysource.com/</span>
+          <a href="sustaining.xhtml#ftnt_ref120" id="ftnt120">[120]</a> <span class=
+          "c5">https://www.bountysource.com/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref121" id="ftnt121">[121]</a>
-          <span class="c5">http://blog.codinghorror.com/given-enough-money-all-bugs-are-shallow/</span>
+          <a href="sustaining.xhtml#ftnt_ref121" id="ftnt121">[121]</a> <span class=
+          "c5">http://blog.codinghorror.com/given-enough-money-all-bugs-are-shallow/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref122" id="ftnt122">[122]</a>
-          <span class="c5">http://www.theregister.co.uk/2011/03/29/red_hat_billions/</span>
+          <a href="sustaining.xhtml#ftnt_ref122" id="ftnt122">[122]</a> <span class=
+          "c5">http://www.theregister.co.uk/2011/03/29/red_hat_billions/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref123" id="ftnt123">[123]</a>
-          <span class="c5">https://blogs.the451group.com/opensource/2008/10/13/open-source-is-not-a-business-model/</span>
+          <a href="sustaining.xhtml#ftnt_ref123" id="ftnt123">[123]</a> <span class=
+          "c5">https://blogs.the451group.com/opensource/2008/10/13/open-source-is-not-a-business-model/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref124" id="ftnt124">[124]</a>
-          <span class="c5">https://www.crunchbase.com/organization/docker#/entity</span>
+          <a href="sustaining.xhtml#ftnt_ref124" id="ftnt124">[124]</a> <span class=
+          "c5">https://www.crunchbase.com/organization/docker#/entity</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref125" id="ftnt125">[125]</a>
-          <span class="c5">http://neighbourhood.ie/</span>
+          <a href="sustaining.xhtml#ftnt_ref125" id="ftnt125">[125]</a> <span class=
+          "c5">http://neighbourhood.ie/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref126" id="ftnt126">[126]</a>
-          <span class="c5">Phone call interview with Jan Lehnardt</span>
+          <a href="sustaining.xhtml#ftnt_ref126" id="ftnt126">[126]</a> <span class="c5">Phone call interview with Jan
+          Lehnardt</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref127" id="ftnt127">[127]</a>
-          <span class="c5">https://twistedmatrix.com/trac/wiki/SuccessStories</span>
+          <a href="sustaining.xhtml#ftnt_ref127" id="ftnt127">[127]</a> <span class=
+          "c5">https://twistedmatrix.com/trac/wiki/SuccessStories</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref128" id="ftnt128">[128]</a>
-          <span class="c5">https://opensource.org/definition</span>
+          <a href="sustaining.xhtml#ftnt_ref128" id="ftnt128">[128]</a> <span class=
+          "c5">https://opensource.org/definition</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref129" id="ftnt129">[129]</a>
-          <span class="c5">https://fair.io/</span>
+          <a href="sustaining.xhtml#ftnt_ref129" id="ftnt129">[129]</a> <span class="c5">https://fair.io/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref130" id="ftnt130">[130]</a>
-          <span class="c5">https://fair.io/</span>
+          <a href="sustaining.xhtml#ftnt_ref130" id="ftnt130">[130]</a> <span class="c5">https://fair.io/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref131" id="ftnt131">[131]</a>
-          <span class="c5">It is worth noting that Mike is correct about code hosted on GitHub with no specified license, but an open source license that meets the OSI’s definition must include freedom to redistribute. This quote highlights how the modern definition of “open source” is blurring, with colloquial use becoming distinct from historical definition.</span>
+          <a href="sustaining.xhtml#ftnt_ref131" id="ftnt131">[131]</a> <span class="c5">It is worth noting that Mike
+          is correct about code hosted on GitHub with no specified license, but an open source license that meets the
+          OSI’s definition must include freedom to redistribute. This quote highlights how the modern definition of
+          “open source” is blurring, with colloquial use becoming distinct from historical definition.</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref132" id="ftnt132">[132]</a>
-          <span class="c5">http://www.mikeperham.com/2015/11/23/how-to-charge-for-your-open-source/</span>
+          <a href="sustaining.xhtml#ftnt_ref132" id="ftnt132">[132]</a> <span class=
+          "c5">http://www.mikeperham.com/2015/11/23/how-to-charge-for-your-open-source/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref133" id="ftnt133">[133]</a>
-          <span class="c5">https://www.kickstarter.com/projects/andrewgodwin/schema-migrations-for-django/description</span>
+          <a href="sustaining.xhtml#ftnt_ref133" id="ftnt133">[133]</a> <span class=
+          "c5">https://www.kickstarter.com/projects/andrewgodwin/schema-migrations-for-django/description</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref134" id="ftnt134">[134]</a>
-          <span class="c5">https://github.com/pybee/paying-the-piper/issues/3</span>
+          <a href="sustaining.xhtml#ftnt_ref134" id="ftnt134">[134]</a> <span class=
+          "c5">https://github.com/pybee/paying-the-piper/issues/3</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref135" id="ftnt135">[135]</a>
-          <span class="c5">As of November 2015. https://gratipay.com/</span>
+          <a href="sustaining.xhtml#ftnt_ref135" id="ftnt135">[135]</a> <span class="c5">As of November 2015.
+          https://gratipay.com/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref136" id="ftnt136">[136]</a>
-          <span class="c5">http://veridicalsystems.com/blog/of-money-responsibility-and-pride/</span>
+          <a href="sustaining.xhtml#ftnt_ref136" id="ftnt136">[136]</a> <span class=
+          "c5">http://veridicalsystems.com/blog/of-money-responsibility-and-pride/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref137" id="ftnt137">[137]</a>
-          <span class="c5">http://blogs.wsj.com/cio/2014/08/20/openssl-seeing-more-support-post-heartbleed/</span>
+          <a href="sustaining.xhtml#ftnt_ref137" id="ftnt137">[137]</a> <span class=
+          "c5">http://blogs.wsj.com/cio/2014/08/20/openssl-seeing-more-support-post-heartbleed/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref138" id="ftnt138">[138]</a>
-          <span class="c5">Email interview with Steve Marquess</span>
+          <a href="sustaining.xhtml#ftnt_ref138" id="ftnt138">[138]</a> <span class="c5">Email interview with Steve
+          Marquess</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref139" id="ftnt139">[139]</a>
-          <span class="c5">http://libscore.com/#libs</span>
+          <a href="sustaining.xhtml#ftnt_ref139" id="ftnt139">[139]</a> <span class=
+          "c5">http://libscore.com/#libs</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref140" id="ftnt140">[140]</a>
-          <span class="c5">http://ejohn.org/blog/mozilla/</span>
+          <a href="sustaining.xhtml#ftnt_ref140" id="ftnt140">[140]</a> <span class=
+          "c5">http://ejohn.org/blog/mozilla/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref141" id="ftnt141">[141]</a>
-          <span class="c5">http://ejohn.org/blog/next-steps-in-2011/</span>
+          <a href="sustaining.xhtml#ftnt_ref141" id="ftnt141">[141]</a> <span class=
+          "c5">http://ejohn.org/blog/next-steps-in-2011/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref142" id="ftnt142">[142]</a>
-          <span class="c5">Email interview with Cory Benfield</span>
+          <a href="sustaining.xhtml#ftnt_ref142" id="ftnt142">[142]</a> <span class="c5">Email interview with Cory
+          Benfield</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref143" id="ftnt143">[143]</a>
-          <span class="c5">Email interview with Cory Benfield</span>
+          <a href="sustaining.xhtml#ftnt_ref143" id="ftnt143">[143]</a> <span class="c5">Email interview with Cory
+          Benfield</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref144" id="ftnt144">[144]</a>
-          <span class="c5">https://www.bountysource.com/teams/rvm/fundraiser</span>
+          <a href="sustaining.xhtml#ftnt_ref144" id="ftnt144">[144]</a> <span class=
+          "c5">https://www.bountysource.com/teams/rvm/fundraiser</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref145" id="ftnt145">[145]</a>
-          <span class="c5">Email interview with Cory Benfield</span>
+          <a href="sustaining.xhtml#ftnt_ref145" id="ftnt145">[145]</a> <span class="c5">Email interview with Cory
+          Benfield</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref146" id="ftnt146">[146]</a>
-          <span class="c5">https://strongloop.com/strongblog/tj-holowaychuk-sponsorship-of-express/</span>
+          <a href="sustaining.xhtml#ftnt_ref146" id="ftnt146">[146]</a> <span class=
+          "c5">https://strongloop.com/strongblog/tj-holowaychuk-sponsorship-of-express/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref147" id="ftnt147">[147]</a>
-          <span class="c5">https://github.com/strongloop/express/issues/2844#issuecomment-172414097</span>
+          <a href="sustaining.xhtml#ftnt_ref147" id="ftnt147">[147]</a> <span class=
+          "c5">https://github.com/strongloop/express/issues/2844#issuecomment-172414097</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref148" id="ftnt148">[148]</a>
-          <span class="c5">http://www.linuxfoundation.org/news-media/announcements/2015/02/linux-foundation-releases-linux-development-report</span>
+          <a href="sustaining.xhtml#ftnt_ref148" id="ftnt148">[148]</a> <span class=
+          "c5">http://www.linuxfoundation.org/news-media/announcements/2015/02/linux-foundation-releases-linux-development-report</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref149" id="ftnt149">[149]</a>
-          <span class="c5">https://github.com/pybee/paying-the-piper/issues/53</span>
+          <a href="sustaining.xhtml#ftnt_ref149" id="ftnt149">[149]</a> <span class=
+          "c5">https://github.com/pybee/paying-the-piper/issues/53</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref150" id="ftnt150">[150]</a>
-          <span class="c5">http://w3techs.com/technologies/overview/web_server/all</span>
+          <a href="sustaining.xhtml#ftnt_ref150" id="ftnt150">[150]</a> <span class=
+          "c5">http://w3techs.com/technologies/overview/web_server/all</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref151" id="ftnt151">[151]</a>
-          <span class="c5">http://www.apache.org/</span>
+          <a href="sustaining.xhtml#ftnt_ref151" id="ftnt151">[151]</a> <span class="c5">http://www.apache.org/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref152" id="ftnt152">[152]</a>
-          <span class="c5">https://en.wikipedia.org/wiki/Apache_Software_Foundation</span>
+          <a href="sustaining.xhtml#ftnt_ref152" id="ftnt152">[152]</a> <span class=
+          "c5">https://en.wikipedia.org/wiki/Apache_Software_Foundation</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref153" id="ftnt153">[153]</a>
-          <span class="c5">https://sfconservancy.org/members/current/</span>
+          <a href="sustaining.xhtml#ftnt_ref153" id="ftnt153">[153]</a> <span class=
+          "c5">https://sfconservancy.org/members/current/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref154" id="ftnt154">[154]</a>
-          <span class="c5">https://en.wikipedia.org/wiki/IRS_targeting_controversy</span>
+          <a href="sustaining.xhtml#ftnt_ref154" id="ftnt154">[154]</a> <span class=
+          "c5">https://en.wikipedia.org/wiki/IRS_targeting_controversy</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref155" id="ftnt155">[155]</a>
-          <span class="c5">http://www.forbes.com/sites/kellyphillipserb/2014/07/17/not-just-the-tea-party-irs-targeted-turned-down-tax-exempt-status-tied-to-open-source-software/</span>
+          <a href="sustaining.xhtml#ftnt_ref155" id="ftnt155">[155]</a> <span class=
+          "c5">http://www.forbes.com/sites/kellyphillipserb/2014/07/17/not-just-the-tea-party-irs-targeted-turned-down-tax-exempt-status-tied-to-open-source-software/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref156" id="ftnt156">[156]</a>
-          <span class="c5">https://blogs.gnome.org/jnelson/2014/06/30/the-new-501c3-and-the-future-of-free-software-in-the-united-states/</span>
+          <a href="sustaining.xhtml#ftnt_ref156" id="ftnt156">[156]</a> <span class=
+          "c5">https://blogs.gnome.org/jnelson/2014/06/30/the-new-501c3-and-the-future-of-free-software-in-the-united-states/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref157" id="ftnt157">[157]</a>
-          <span class="c5">https://blogs.gnome.org/jnelson/2014/06/30/the-new-501c3-and-the-future-of-free-software-in-the-united-states/</span>
+          <a href="sustaining.xhtml#ftnt_ref157" id="ftnt157">[157]</a> <span class=
+          "c5">https://blogs.gnome.org/jnelson/2014/06/30/the-new-501c3-and-the-future-of-free-software-in-the-united-states/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref158" id="ftnt158">[158]</a>
-          <span class="c5">https://www.python.org/psf/</span>
+          <a href="sustaining.xhtml#ftnt_ref158" id="ftnt158">[158]</a> <span class=
+          "c5">https://www.python.org/psf/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref159" id="ftnt159">[159]</a>
-          <span class="c5">https://jquery.org/</span>
+          <a href="sustaining.xhtml#ftnt_ref159" id="ftnt159">[159]</a> <span class="c5">https://jquery.org/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref160" id="ftnt160">[160]</a>
-          <span class="c5">As of 2013. https://www.djangoproject.com/foundation/reports/2013/</span>
+          <a href="sustaining.xhtml#ftnt_ref160" id="ftnt160">[160]</a> <span class="c5">As of 2013.
+          https://www.djangoproject.com/foundation/reports/2013/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref161" id="ftnt161">[161]</a>
-          <span class="c5">https://www.djangoproject.com/weblog/2015/dec/11/django-awarded-moss-grant/</span>
+          <a href="sustaining.xhtml#ftnt_ref161" id="ftnt161">[161]</a> <span class=
+          "c5">https://www.djangoproject.com/weblog/2015/dec/11/django-awarded-moss-grant/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref162" id="ftnt162">[162]</a>
-          <span class="c5">http://collabprojects.linuxfoundation.org/sites/collabprojects/files/lf_collaborative_projects_brochure.pdf</span>
+          <a href="sustaining.xhtml#ftnt_ref162" id="ftnt162">[162]</a> <span class=
+          "c5">http://collabprojects.linuxfoundation.org/sites/collabprojects/files/lf_collaborative_projects_brochure.pdf</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref163" id="ftnt163">[163]</a>
-          <span class="c5">http://www.infoworld.com/article/2835159/node-js/node-js-governance-model-pushed-as-forking-talk-ensues.html</span>
+          <a href="sustaining.xhtml#ftnt_ref163" id="ftnt163">[163]</a> <span class=
+          "c5">http://www.infoworld.com/article/2835159/node-js/node-js-governance-model-pushed-as-forking-talk-ensues.html</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref164" id="ftnt164">[164]</a>
-          <span class="c5">https://www.joyent.com/blog/introducing-the-nodejs-foundation</span>
+          <a href="sustaining.xhtml#ftnt_ref164" id="ftnt164">[164]</a> <span class=
+          "c5">https://www.joyent.com/blog/introducing-the-nodejs-foundation</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref165" id="ftnt165">[165]</a>
-          <span class="c5">https://rubytogether.org/</span>
+          <a href="sustaining.xhtml#ftnt_ref165" id="ftnt165">[165]</a> <span class=
+          "c5">https://rubytogether.org/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref166" id="ftnt166">[166]</a>
-          <span class="c5">http://www.infoworld.com/article/2608897/open-source-software/walmart-s-investment-in-open-source-isn-t-cheap.html</span>
+          <a href="sustaining.xhtml#ftnt_ref166" id="ftnt166">[166]</a> <span class=
+          "c5">http://www.infoworld.com/article/2608897/open-source-software/walmart-s-investment-in-open-source-isn-t-cheap.html</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref167" id="ftnt167">[167]</a>
-          <span class="c5">http://hueniverse.com/2014/08/15/open-source-aint-charity/</span>
+          <a href="sustaining.xhtml#ftnt_ref167" id="ftnt167">[167]</a> <span class=
+          "c5">http://hueniverse.com/2014/08/15/open-source-aint-charity/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref168" id="ftnt168">[168]</a>
-          <span class="c5">http://todogroup.org/blog/why-we-run-an-open-source-program-walmart-labs/</span>
+          <a href="sustaining.xhtml#ftnt_ref168" id="ftnt168">[168]</a> <span class=
+          "c5">http://todogroup.org/blog/why-we-run-an-open-source-program-walmart-labs/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref169" id="ftnt169">[169]</a>
-          <span class="c5">https://github.com/pybee/paying-the-piper/issues/50</span>
+          <a href="sustaining.xhtml#ftnt_ref169" id="ftnt169">[169]</a> <span class=
+          "c5">https://github.com/pybee/paying-the-piper/issues/50</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref170" id="ftnt170">[170]</a>
-          <span class="c5">https://developers.google.com/open-source/gsoc/</span>
+          <a href="sustaining.xhtml#ftnt_ref170" id="ftnt170">[170]</a> <span class=
+          "c5">https://developers.google.com/open-source/gsoc/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref171" id="ftnt171">[171]</a>
-          <span class="c5">https://en.wikipedia.org/wiki/Google_Summer_of_Code</span>
+          <a href="sustaining.xhtml#ftnt_ref171" id="ftnt171">[171]</a> <span class=
+          "c5">https://en.wikipedia.org/wiki/Google_Summer_of_Code</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref172" id="ftnt172">[172]</a>
-          <span class="c5">https://stripe.com/blog/stripe-open-source-retreat</span>
+          <a href="sustaining.xhtml#ftnt_ref172" id="ftnt172">[172]</a> <span class=
+          "c5">https://stripe.com/blog/stripe-open-source-retreat</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref173" id="ftnt173">[173]</a>
-          <span class="c5">Gittip is now called Gratipay. The product has been modified somewhat since the original publication of Andrey’s post.</span>
+          <a href="sustaining.xhtml#ftnt_ref173" id="ftnt173">[173]</a> <span class="c5">Gittip is now called Gratipay.
+          The product has been modified somewhat since the original publication of Andrey’s post.</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref174" id="ftnt174">[174]</a>
-          <span class="c5">https://stripe.com/blog/stripe-open-source-retreat</span>
+          <a href="sustaining.xhtml#ftnt_ref174" id="ftnt174">[174]</a> <span class=
+          "c5">https://stripe.com/blog/stripe-open-source-retreat</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref175" id="ftnt175">[175]</a>
-          <span class="c5">Systems Live, Episode 51: Megalith </span>
-          <span class="c5">http://systemslive.org/</span>
-          <span class="c5"></span>
+          <a href="sustaining.xhtml#ftnt_ref175" id="ftnt175">[175]</a> <span class="c5">Systems Live, Episode 51:
+          Megalith</span> <span class="c5">http://systemslive.org/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref176" id="ftnt176">[176]</a>
-          <span class="c5">Systems Live, Episode 51: Megalith </span>
-          <span class="c5">http://systemslive.org/</span>
-          <span class="c5"></span>
+          <a href="sustaining.xhtml#ftnt_ref176" id="ftnt176">[176]</a> <span class="c5">Systems Live, Episode 51:
+          Megalith</span> <span class="c5">http://systemslive.org/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref177" id="ftnt177">[177]</a>
-          <span class="c5">http://www.wired.com/2012/11/feudal-security/</span>
+          <a href="sustaining.xhtml#ftnt_ref177" id="ftnt177">[177]</a> <span class=
+          "c5">http://www.wired.com/2012/11/feudal-security/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref178" id="ftnt178">[178]</a>
-          <span class="c5">http://www.cnet.com/news/tech-titans-join-forces-to-stop-the-next-heartbleed/</span>
+          <a href="sustaining.xhtml#ftnt_ref178" id="ftnt178">[178]</a> <span class=
+          "c5">http://www.cnet.com/news/tech-titans-join-forces-to-stop-the-next-heartbleed/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref179" id="ftnt179">[179]</a>
-          <span class="c5">http://www.linuxfoundation.org/news-media/blogs/browse/2016/02/linux-foundation-s-core-infrastructure-initiative-working-white</span>
+          <a href="sustaining.xhtml#ftnt_ref179" id="ftnt179">[179]</a> <span class=
+          "c5">http://www.linuxfoundation.org/news-media/blogs/browse/2016/02/linux-foundation-s-core-infrastructure-initiative-working-white</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref180" id="ftnt180">[180]</a>
-          <span class="c5">https://blog.mozilla.org/blog/2015/10/23/mozilla-launches-open-source-support-program/</span>
+          <a href="sustaining.xhtml#ftnt_ref180" id="ftnt180">[180]</a> <span class=
+          "c5">https://blog.mozilla.org/blog/2015/10/23/mozilla-launches-open-source-support-program/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref181" id="ftnt181">[181]</a>
-          <span class="c5">https://wiki.mozilla.org/MOSS/Secure_Open_Source</span>
+          <a href="sustaining.xhtml#ftnt_ref181" id="ftnt181">[181]</a> <span class=
+          "c5">https://wiki.mozilla.org/MOSS/Secure_Open_Source</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref182" id="ftnt182">[182]</a>
-          <span class="c5">https://www.python.org/psf/records/board/resolutions/</span>
+          <a href="sustaining.xhtml#ftnt_ref182" id="ftnt182">[182]</a> <span class=
+          "c5">https://www.python.org/psf/records/board/resolutions/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref183" id="ftnt183">[183]</a>
-          <span class="c5">http://techcrunch.com/2013/09/18/facebook-doesnt-want-to-be-cool/</span>
+          <a href="sustaining.xhtml#ftnt_ref183" id="ftnt183">[183]</a> <span class=
+          "c5">http://techcrunch.com/2013/09/18/facebook-doesnt-want-to-be-cool/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref184" id="ftnt184">[184]</a>
-          <span class="c5">https://github.com/dear-github/dear-github</span>
+          <a href="sustaining.xhtml#ftnt_ref184" id="ftnt184">[184]</a> <span class=
+          "c5">https://github.com/dear-github/dear-github</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref185" id="ftnt185">[185]</a>
-          <span class="c5">http://www.fastcompany.com/3020181/open-company/inside-githubs-super-lean-management-strategy-and-how-it-drives-innovation</span>
+          <a href="sustaining.xhtml#ftnt_ref185" id="ftnt185">[185]</a> <span class=
+          "c5">http://www.fastcompany.com/3020181/open-company/inside-githubs-super-lean-management-strategy-and-how-it-drives-innovation</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref186" id="ftnt186">[186]</a>
-          <span class="c5">http://www.businessinsider.com/github-the-full-inside-story-2016-2</span>
+          <a href="sustaining.xhtml#ftnt_ref186" id="ftnt186">[186]</a> <span class=
+          "c5">http://www.businessinsider.com/github-the-full-inside-story-2016-2</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref187" id="ftnt187">[187]</a>
-          <span class="c5">http://fortune.com/2015/12/15/slack-app-investment-fund/</span>
+          <a href="sustaining.xhtml#ftnt_ref187" id="ftnt187">[187]</a> <span class=
+          "c5">http://fortune.com/2015/12/15/slack-app-investment-fund/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref188" id="ftnt188">[188]</a>
-          <span class="c5">https://www.r-project.org/contributors.html</span>
+          <a href="sustaining.xhtml#ftnt_ref188" id="ftnt188">[188]</a> <span class=
+          "c5">https://www.r-project.org/contributors.html</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref189" id="ftnt189">[189]</a>
-          <span class="c5">http://www.revolutionanalytics.com/companies-using-r</span>
+          <a href="sustaining.xhtml#ftnt_ref189" id="ftnt189">[189]</a> <span class=
+          "c5">http://www.revolutionanalytics.com/companies-using-r</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref190" id="ftnt190">[190]</a>
-          <span class="c5">http://www.numfocus.org/open-source-projects.html</span>
+          <a href="sustaining.xhtml#ftnt_ref190" id="ftnt190">[190]</a> <span class=
+          "c5">http://www.numfocus.org/open-source-projects.html</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="sustaining.xhtml#ftnt_ref191" id="ftnt191">[191]</a>
-          <span class="c5">http://msdse.org/themes/#tools</span>
+          <a href="sustaining.xhtml#ftnt_ref191" id="ftnt191">[191]</a> <span class=
+          "c5">http://msdse.org/themes/#tools</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="opportunities.xhtml#ftnt_ref192" id="ftnt192">[192]</a>
-          <span class="c5"></span>
-          <span class="c5">http://david.heinemeierhansson.com/2013/the-perils-of-mixing-open-source-and-money.html</span>
-          <span class="c5"></span>
+          <a href="opportunities.xhtml#ftnt_ref192" id="ftnt192">[192]</a> <span class=
+          "c5">http://david.heinemeierhansson.com/2013/the-perils-of-mixing-open-source-and-money.html</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="opportunities.xhtml#ftnt_ref193" id="ftnt193">[193]</a>
-          <span class="c5">https://en.wikipedia.org/wiki/Keystone_species</span>
+          <a href="opportunities.xhtml#ftnt_ref193" id="ftnt193">[193]</a> <span class=
+          "c5">https://en.wikipedia.org/wiki/Keystone_species</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="opportunities.xhtml#ftnt_ref194" id="ftnt194">[194]</a>
-          <span class="c5">https://libraries.io/</span>
+          <a href="opportunities.xhtml#ftnt_ref194" id="ftnt194">[194]</a> <span class=
+          "c5">https://libraries.io/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="opportunities.xhtml#ftnt_ref195" id="ftnt195">[195]</a>
-          <span class="c5">http://felixge.de/2013/03/11/the-pull-request-hack.html</span>
+          <a href="opportunities.xhtml#ftnt_ref195" id="ftnt195">[195]</a> <span class=
+          "c5">http://felixge.de/2013/03/11/the-pull-request-hack.html</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="opportunities.xhtml#ftnt_ref196" id="ftnt196">[196]</a>
-          <span class="c5">https://medium.com/the-javascript-collection/healthy-open-source-967fa8be7951#.4x37jao9w</span>
+          <a href="opportunities.xhtml#ftnt_ref196" id="ftnt196">[196]</a> <span class=
+          "c5">https://medium.com/the-javascript-collection/healthy-open-source-967fa8be7951#.4x37jao9w</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="opportunities.xhtml#ftnt_ref197" id="ftnt197">[197]</a>
-          <span class="c5">https://twitter.com/yourfirstpr</span>
+          <a href="opportunities.xhtml#ftnt_ref197" id="ftnt197">[197]</a> <span class=
+          "c5">https://twitter.com/yourfirstpr</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="opportunities.xhtml#ftnt_ref198" id="ftnt198">[198]</a>
-          <span class="c5">http://www.firsttimersonly.com/</span>
+          <a href="opportunities.xhtml#ftnt_ref198" id="ftnt198">[198]</a> <span class=
+          "c5">http://www.firsttimersonly.com/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="opportunities.xhtml#ftnt_ref199" id="ftnt199">[199]</a>
-          <span class="c5">http://makeapullrequest.com/</span>
+          <a href="opportunities.xhtml#ftnt_ref199" id="ftnt199">[199]</a> <span class=
+          "c5">http://makeapullrequest.com/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="opportunities.xhtml#ftnt_ref200" id="ftnt200">[200]</a>
-          <span class="c5">https://www.blackducksoftware.com/news/releases/seventy-eight-percent-companies-run-open-source-yet-many-lack-formal-policies-manage</span>
+          <a href="opportunities.xhtml#ftnt_ref200" id="ftnt200">[200]</a> <span class=
+          "c5">https://www.blackducksoftware.com/news/releases/seventy-eight-percent-companies-run-open-source-yet-many-lack-formal-policies-manage</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="opportunities.xhtml#ftnt_ref201" id="ftnt201">[201]</a>
-          <span class="c5">http://todogroup.org/</span>
+          <a href="opportunities.xhtml#ftnt_ref201" id="ftnt201">[201]</a> <span class=
+          "c5">http://todogroup.org/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="opportunities.xhtml#ftnt_ref202" id="ftnt202">[202]</a>
-          <span class="c5">http://todogroup.org/blog/todo-becomes-lf-collaborative-project/</span>
+          <a href="opportunities.xhtml#ftnt_ref202" id="ftnt202">[202]</a> <span class=
+          "c5">http://todogroup.org/blog/todo-becomes-lf-collaborative-project/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="opportunities.xhtml#ftnt_ref203" id="ftnt203">[203]</a>
-          <span class="c5">https://en.wikipedia.org/wiki/Varnish_(software)</span>
+          <a href="opportunities.xhtml#ftnt_ref203" id="ftnt203">[203]</a> <span class=
+          "c5">https://en.wikipedia.org/wiki/Varnish_(software)</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="opportunities.xhtml#ftnt_ref204" id="ftnt204">[204]</a>
-          <span class="c5">http://phk.freebsd.dk/VML/</span>
+          <a href="opportunities.xhtml#ftnt_ref204" id="ftnt204">[204]</a> <span class=
+          "c5">http://phk.freebsd.dk/VML/</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="opportunities.xhtml#ftnt_ref205" id="ftnt205">[205]</a>
-          <span class="c5">http://www.wsj.com/articles/SB10001424053111903480904576512250915629460</span>
+          <a href="opportunities.xhtml#ftnt_ref205" id="ftnt205">[205]</a> <span class=
+          "c5">http://www.wsj.com/articles/SB10001424053111903480904576512250915629460</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="opportunities.xhtml#ftnt_ref206" id="ftnt206">[206]</a>
-          <span class="c5">Phone interview with Steve Marquess</span>
+          <a href="opportunities.xhtml#ftnt_ref206" id="ftnt206">[206]</a> <span class="c5">Phone interview with Steve
+          Marquess</span>
         </p>
       </div>
       <div>
         <p class="c2">
-          <a href="opportunities.xhtml#ftnt_ref207" id="ftnt207">[207]</a>
-          <span class="c5">http://www.informationweek.com/it-life/ntps-fate-hinges-on-father-time/d/d-id/1319432</span>
+          <a href="opportunities.xhtml#ftnt_ref207" id="ftnt207">[207]</a> <span class=
+          "c5">http://www.informationweek.com/it-life/ntps-fate-hinges-on-father-time/d/d-id/1319432</span>
         </p>
       </div>
     </section>
