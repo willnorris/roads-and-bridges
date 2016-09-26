@@ -10,7 +10,7 @@ test:
 	epubcheck -mode exp src
 
 tidy:
-	tidy -m --indent yes --tidy-mark no -w 120 `ls src/EPUB/*.xhtml | grep -v nav.xhtml`
+	tidy -q -m --indent yes --tidy-mark no -w 120 `ls src/EPUB/*.xhtml | grep -v nav.xhtml`
 
 clean:
 	rm -f ${EPUB}

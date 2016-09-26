@@ -57,7 +57,7 @@ q.normal, q sup {
   font-style: normal;
 }
 blockquote:before {
-  color: #ddd;
+  opacity: 0.1;
   content: "\201C";
   font-size: 7em;
   line-height: 0em;
