@@ -1,42 +1,8 @@
-.title {
-  padding-top: 0pt;
-  color: #000000;
-  font-size: 26pt;
-  padding-bottom: 3pt;
-  font-family: "Arial";
-  line-height: 1.15;
-  page-break-after: avoid;
-  orphans: 2;
-  widows: 2;
-  text-align: left
-}
-.subtitle {
-  padding-top: 0pt;
-  color: #666666;
-  font-size: 15pt;
-  padding-bottom: 16pt;
-  font-family: "Arial";
-  line-height: 1.15;
-  page-break-after: avoid;
-  orphans: 2;
-  widows: 2;
-  text-align: left
-}
-li {
-  color: #000000;
-  font-size: 11pt;
-  font-family: "Arial"
-}
-p {
-  color: #000000;
-  font-size: 11pt;
-  font-family: "Arial"
-}
-
 /* Callouts */
 .callout {
-  background: #ddd;
+  background: #FEEAE2;
   padding: 1em 1em 1em 2em;
+  font-style: italic;
 }
 .callout li {
   list-style: none;
@@ -55,6 +21,9 @@ q:after {
 }
 q.normal, q sup {
   font-style: normal;
+}
+blockquote {
+  color: #F2645E;
 }
 blockquote:before {
   opacity: 0.1;
@@ -79,76 +48,3 @@ cite.post:after {
   content: close-quote;
 }
 
-h1 {
-  padding-top: 20pt;
-  color: #000000;
-  font-size: 20pt;
-  padding-bottom: 6pt;
-  font-family: "Arial";
-  line-height: 1.15;
-  page-break-after: avoid;
-  orphans: 2;
-  widows: 2;
-  text-align: left
-}
-h2 {
-  padding-top: 18pt;
-  color: #000000;
-  font-size: 16pt;
-  padding-bottom: 6pt;
-  font-family: "Arial";
-  line-height: 1.15;
-  page-break-after: avoid;
-  orphans: 2;
-  widows: 2;
-  text-align: left
-}
-h3 {
-  padding-top: 16pt;
-  color: #434343;
-  font-size: 14pt;
-  padding-bottom: 4pt;
-  font-family: "Arial";
-  line-height: 1.15;
-  page-break-after: avoid;
-  orphans: 2;
-  widows: 2;
-  text-align: left
-}
-h4 {
-  padding-top: 14pt;
-  color: #666666;
-  font-size: 12pt;
-  padding-bottom: 4pt;
-  font-family: "Arial";
-  line-height: 1.15;
-  page-break-after: avoid;
-  orphans: 2;
-  widows: 2;
-  text-align: left
-}
-h5 {
-  padding-top: 12pt;
-  color: #666666;
-  font-size: 11pt;
-  padding-bottom: 4pt;
-  font-family: "Arial";
-  line-height: 1.15;
-  page-break-after: avoid;
-  orphans: 2;
-  widows: 2;
-  text-align: left
-}
-h6 {
-  padding-top: 12pt;
-  color: #666666;
-  font-size: 11pt;
-  padding-bottom: 4pt;
-  font-family: "Arial";
-  line-height: 1.15;
-  page-break-after: avoid;
-  font-style: italic;
-  orphans: 2;
-  widows: 2;
-  text-align: left
-}
