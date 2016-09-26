@@ -9,6 +9,11 @@
   max-height: 99vh;
 }
 
+#copyright p {
+  text-align: center;
+  margin-bottom: 3em;
+}
+
 nav li {
   list-style: none;
   margin-bottom: 0.5em;
