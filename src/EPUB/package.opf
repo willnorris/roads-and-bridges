@@ -18,6 +18,7 @@
     <item href="nav.xhtml" id="toc" media-type="application/xhtml+xml" properties="nav"/>
     <item href="cover.xhtml" id="cover" media-type="application/xhtml+xml"/>
     <item href="title.xhtml" id="main" media-type="application/xhtml+xml"/>
+    <item href="copyright.xhtml" id="copyright" media-type="application/xhtml+xml"/>
     <item href="preface.xhtml" id="preface" media-type="application/xhtml+xml"/>
     <item href="history.xhtml" id="history" media-type="application/xhtml+xml"/>
     <item href="current-system.xhtml" id="current-system" media-type="application/xhtml+xml"/>
@@ -34,6 +35,7 @@
   <spine>
     <itemref idref="cover"/>
     <itemref idref="main"/>
+    <itemref idref="copyright"/>
     <itemref idref="toc"/>
     <itemref idref="preface"/>
     <itemref idref="history"/>
