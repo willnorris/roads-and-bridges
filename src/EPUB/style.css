@@ -1584,11 +1584,48 @@ li {
   font-family: "Arial"
 }
 p {
-  margin: 0;
   color: #000000;
   font-size: 11pt;
   font-family: "Arial"
 }
+
+/* Quotes */
+q, blockquote {
+  font-style: italic;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+q:before {
+  content: open-quote;
+}
+q:after {
+  content: close-quote;
+}
+q.normal, q sup {
+  font-style: normal;
+}
+blockquote:before {
+  color: #ddd;
+  content: "\201C";
+  font-size: 7em;
+  line-height: 0em;
+  float: left;
+  position: relative;
+  top: 0.25em;
+  left: 0.15em;
+  z-index: -1;
+  margin-left: -1ex;
+}
+/* blog post titles are quoted instead of italicized */
+cite.post {
+  font-style: normal;
+}
+cite.post:before {
+  content: open-quote;
+}
+cite.post:after {
+  content: close-quote;
+}
+
 h1 {
   padding-top: 20pt;
   color: #000000;
