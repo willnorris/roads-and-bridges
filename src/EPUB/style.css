@@ -1,3 +1,14 @@
+#cover {
+  margin: 0;
+  text-align: center;
+}
+#cover img {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  max-height: 99vh;
+}
+
 /* Callouts */
 .callout {
   background: #FEEAE2;
