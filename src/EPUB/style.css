@@ -48,3 +48,17 @@ cite.post:after {
   content: close-quote;
 }
 
+#glossary dt {
+  float: left;
+  clear: left;
+}
+#glossary dt dfn {
+  font-style: normal;
+  font-weight: bold;
+}
+#glossary dt dfn:after {
+  content: ":\00a0";
+}
+#glossary dd {
+  margin: 0;
+}
