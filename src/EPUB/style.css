@@ -9,6 +9,28 @@
   max-height: 99vh;
 }
 
+nav li {
+  list-style: none;
+  margin-bottom: 0.5em;
+}
+nav ol {
+  margin: 0.5em 0 1em 0;
+  padding-left: 1.5em;
+}
+nav a {
+  color: #000;
+  text-decoration: none;
+}
+nav > ol {
+  padding: 0;
+}
+nav > ol > li > a {
+  color: #F2645E;
+  font-size: 1.25em;
+}
+nav > ol > li > ol {
+}
+
 body > section {
   page-break-before: always;
   break-before: always;
