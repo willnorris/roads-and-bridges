@@ -29,6 +29,7 @@
     <item href="images/cover.png" id="cover.png" media-type="image/png"/>
     <item href="images/image01.png" id="image01.png" media-type="image/png"/>
     <item href="images/image00.png" id="image00.png" media-type="image/png"/>
+    <item href="images/ford-foundation.png" id="ford-foundation.png" media-type="image/png"/>
   </manifest>
   <spine>
     <itemref idref="cover"/>

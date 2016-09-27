@@ -113,3 +113,15 @@ cite.post:after {
 #glossary dd {
   margin: 0;
 }
+
+#sponsor {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: .8em;
+}
+#sponsor img {
+  display: block;
+  margin: 0 auto;
+  width: 20em;
+  height: auto;
+}
