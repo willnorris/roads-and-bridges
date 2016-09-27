@@ -49,6 +49,14 @@ h3 {
   font-weight: normal;
 }
 
+figure {
+  margin: 1em auto;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+}
+
 /* Callouts */
 .callout {
   background: #FEEAE2;

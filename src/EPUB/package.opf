@@ -27,8 +27,8 @@
     <item href="appendix.xhtml" id="appendix" media-type="application/xhtml+xml"/>
     <item href="style.css" id="css" media-type="text/css" />
     <item href="images/cover.png" id="cover.png" media-type="image/png"/>
-    <item href="images/image01.png" id="image01.png" media-type="image/png"/>
-    <item href="images/image00.png" id="image00.png" media-type="image/png"/>
+    <item href="images/git-subversion-jobs.png" id="git-subversion-jobs.png" media-type="image/png"/>
+    <item href="images/code-commits.png" id="code-commits.png" media-type="image/png"/>
     <item href="images/ford-foundation.png" id="ford-foundation.png" media-type="image/png"/>
   </manifest>
   <spine>
