@@ -10,6 +10,9 @@
     <dc:title id="t2">The Unseen Labor Behind Our Digital Infrastructure</dc:title>
     <meta refines="#t2" property="title-type">subtitle</meta>
     <meta refines="#t2" property="display-seq">2</meta>
+    
+    <dc:creator id="creator">Nadia Eghbal</dc:creator>
+    <meta refines="#creator" property="role" scheme="marc:relators" id="role">aut</meta>
 
     <meta property="dcterms:modified">2016-09-20T21:01:41Z</meta>
     <meta name="cover" content="cover.png"/>
